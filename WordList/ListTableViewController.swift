@@ -61,7 +61,7 @@ class ListTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            as! LietTableViewCell
+            as! ListTableViewCell
         //正List TableViewCell
         
         let nowIndexPathDictionaly = wordArray[indexPath.row]

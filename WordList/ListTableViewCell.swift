@@ -1,5 +1,5 @@
 //
-//  LietTableViewCell.swift
+//  ListTableViewCell.swift
 //  WordList
 //
 //  Created by 中嶋裕也 on 2018/04/12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LietTableViewCell: UITableViewCell {
+class ListTableViewCell: UITableViewCell {
     
     @IBOutlet var englishLabel: UILabel!
     @IBOutlet var japaneseLabel: UILabel!

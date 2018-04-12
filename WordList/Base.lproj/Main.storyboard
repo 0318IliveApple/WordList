@@ -58,7 +58,7 @@
         <!--一覧-->
         <scene sceneID="a17-dA-KYN">
             <objects>
-                <tableViewController id="3ND-4E-EAX" customClass="ListTableTableViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="3ND-4E-EAX" customClass="ListTableViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7am-sl-XfH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,9 +187,6 @@
                                 <rect key="frame" x="164" y="538" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="nextButtonTapped" destination="8Gt-1d-jEU" eventType="touchDragInside" id="PPi-7K-hEz"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWB-f3-t7w">
                                 <rect key="frame" x="218" y="368" width="42" height="21"/>
@@ -203,6 +200,9 @@
                         <viewLayoutGuide key="safeArea" id="WOQ-nT-OQ4"/>
                     </view>
                     <connections>
+                        <outlet property="answerLavel" destination="jWB-f3-t7w" id="kDo-Tn-S0L"/>
+                        <outlet property="nextButton" destination="RPh-n9-ZDg" id="fJN-5J-xL4"/>
+                        <outlet property="questionLabel" destination="JK1-ku-H1U" id="iUK-MI-K1V"/>
                         <segue destination="h2I-gz-l7A" kind="presentation" identifier="toFinishView" id="g9O-OK-Sdw"/>
                     </connections>
                 </viewController>
