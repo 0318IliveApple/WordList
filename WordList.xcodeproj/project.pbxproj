@@ -14,6 +14,15 @@
 		60E326DF207DF5DF00D0B802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E326DD207DF5DF00D0B802 /* LaunchScreen.storyboard */; };
 		60E326EA207DF5DF00D0B802 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E326E9207DF5DF00D0B802 /* WordListTests.swift */; };
 		60E326F5207DF5DF00D0B802 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E326F4207DF5DF00D0B802 /* WordListUITests.swift */; };
+		60E32706207DF61A00D0B802 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E32703207DF61A00D0B802 /* word_blank.png */; };
+		60E32707207DF61A00D0B802 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E32704207DF61A00D0B802 /* fin.png */; };
+		60E32708207DF61A00D0B802 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E32705207DF61A00D0B802 /* title_logo.png */; };
+		60E3270A207DFE1900D0B802 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E32709207DFE1900D0B802 /* QuestionViewController.swift */; };
+		60E3270C207DFE3A00D0B802 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3270B207DFE3A00D0B802 /* FinishViewController.swift */; };
+		60E32710207DFE8A00D0B802 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3270F207DFE8A00D0B802 /* AddViewController.swift */; };
+		60E32727207EF9C800D0B802 /* LietTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E32725207EF9C800D0B802 /* LietTableViewCell.swift */; };
+		60E32728207EF9C800D0B802 /* LietTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E32726207EF9C800D0B802 /* LietTableViewCell.xib */; };
+		60E3272A207EFA5800D0B802 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E32729207EFA5800D0B802 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		60E326F0207DF5DF00D0B802 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E326F4207DF5DF00D0B802 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		60E326F6207DF5DF00D0B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E32703207DF61A00D0B802 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		60E32704207DF61A00D0B802 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		60E32705207DF61A00D0B802 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		60E32709207DFE1900D0B802 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		60E3270B207DFE3A00D0B802 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		60E3270F207DFE8A00D0B802 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		60E32725207EF9C800D0B802 /* LietTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LietTableViewCell.swift; sourceTree = "<group>"; };
+		60E32726207EF9C800D0B802 /* LietTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LietTableViewCell.xib; sourceTree = "<group>"; };
+		60E32729207EFA5800D0B802 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 				60E326E8207DF5DF00D0B802 /* WordListTests */,
 				60E326F3207DF5DF00D0B802 /* WordListUITests */,
 				60E326D2207DF5DD00D0B802 /* Products */,
+				60E32702207DF61A00D0B802 /* WordList素材 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +119,15 @@
 				60E326D4207DF5DD00D0B802 /* AppDelegate.swift */,
 				60E326D6207DF5DD00D0B802 /* ViewController.swift */,
 				60E326D8207DF5DD00D0B802 /* Main.storyboard */,
+				60E32709207DFE1900D0B802 /* QuestionViewController.swift */,
+				60E3270B207DFE3A00D0B802 /* FinishViewController.swift */,
+				60E3270F207DFE8A00D0B802 /* AddViewController.swift */,
 				60E326DB207DF5DF00D0B802 /* Assets.xcassets */,
 				60E326DD207DF5DF00D0B802 /* LaunchScreen.storyboard */,
 				60E326E0207DF5DF00D0B802 /* Info.plist */,
+				60E32729207EFA5800D0B802 /* ListTableViewController.swift */,
+				60E32725207EF9C800D0B802 /* LietTableViewCell.swift */,
+				60E32726207EF9C800D0B802 /* LietTableViewCell.xib */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -123,6 +148,16 @@
 				60E326F6207DF5DF00D0B802 /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		60E32702207DF61A00D0B802 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				60E32703207DF61A00D0B802 /* word_blank.png */,
+				60E32704207DF61A00D0B802 /* fin.png */,
+				60E32705207DF61A00D0B802 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E32706207DF61A00D0B802 /* word_blank.png in Resources */,
+				60E32708207DF61A00D0B802 /* title_logo.png in Resources */,
 				60E326DF207DF5DF00D0B802 /* LaunchScreen.storyboard in Resources */,
 				60E326DC207DF5DF00D0B802 /* Assets.xcassets in Resources */,
+				60E32707207DF61A00D0B802 /* fin.png in Resources */,
 				60E326DA207DF5DD00D0B802 /* Main.storyboard in Resources */,
+				60E32728207EF9C800D0B802 /* LietTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E326D7207DF5DD00D0B802 /* ViewController.swift in Sources */,
+				60E3270C207DFE3A00D0B802 /* FinishViewController.swift in Sources */,
+				60E32710207DFE8A00D0B802 /* AddViewController.swift in Sources */,
+				60E32727207EF9C800D0B802 /* LietTableViewCell.swift in Sources */,
+				60E3272A207EFA5800D0B802 /* ListTableViewController.swift in Sources */,
 				60E326D5207DF5DD00D0B802 /* AppDelegate.swift in Sources */,
+				60E3270A207DFE1900D0B802 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4R772ZVB;
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4R772ZVB;
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
