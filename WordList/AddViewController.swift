@@ -20,7 +20,7 @@ class AddViewController: UIViewController {
         let wordDictionaly = ["english": englishTextField.text!,"japanese":japaneseTextField.text!]
         
         wordArray.append(wordDictionaly)
-        saveData.set("wordArray", forKey: "WORD")
+        saveData.set(wordArray, forKey: "WORD")
         
         let alert = UIAlertController(title: "設定完了", message: "単語の登録が完了しました", preferredStyle: .alert)
         alert.addAction(UIAlertAction(

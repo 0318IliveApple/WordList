@@ -22,10 +22,12 @@ class QuestionViewController: UIViewController {
     let saveData = UserDefaults.standard
     
     func shuffle(){
+        print("ああああああああああああああああ")
         while wordArray.count > 0 {
             let index = Int(arc4random()) % wordArray.count
             shuffuledWordArray.append(wordArray[index])
             wordArray.remove(at: index)
+            
         }
     }
     
@@ -33,6 +35,7 @@ class QuestionViewController: UIViewController {
         if isAnswered {
             nowNumber += 1
             answerLavel.text = ""
+            
             if nowNumber < shuffuledWordArray.count {
                 questionLabel.text = shuffuledWordArray[nowNumber]["english"]
                 isAnswered = false
@@ -54,12 +57,16 @@ class QuestionViewController: UIViewController {
         answerLavel.text = ""
         // Do any additional setup after loading the view.
     }
+    override func viewWillAppear(_ animated: Bool) {
+        wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
+        shuffle()
+        print(shuffuledWordArray)
+        questionLabel.text = shuffuledWordArray[nowNumber]["english"]
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
-        shuffle()
-        questionLabel.text = shuffuledWordArray[nowNumber]["english"]
+        
         // Dispose of any resources that can be recreated.
     }
     
